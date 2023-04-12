@@ -5,17 +5,20 @@ html{
     height: 100%;
 }
 button{
-    background-color: saddlebrown;
+    background-color: darkgreen;
     width: 100%;
 }
+h1{
+    color: darkgreen;
+}
 h2{
-    color: saddlebrown;
+    color: darkgreen;
     width: 100%;
     
 }
 h3{
-    color: saddlebrown;
+    color: darkgreen;
 }
 p1{
-    color: saddlebrown;
+    color: darkgreen;
 }
