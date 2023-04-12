@@ -11,15 +11,18 @@ button{
     background-color: darkgreen;
     width: 100%;
     padding: none;
+    
 
 }
-.nav_items a {
+ a {
     float: left;
-   display: inline block;
+   display: inline;
     color: white;
     font-size: 20px;
     padding:14px 15px;
     margin: auto;
+    display: block;
+    border: 2px black;
     
 }
 h1{
@@ -39,14 +42,24 @@ p1{
 p2{
     color: darkgreen;
 }
-ul li{
+ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
-   
+    display: flex;
+    justify-content: center;
+    border: 2px black;
 
+}
+li{
+    border: 2px black;
+    display: block;
+}
+.topnav {
+    text-align: center;
 }
 
 /*for mobile screens*/
 @media only screen and (max-width: 640px) {
+    
 }
