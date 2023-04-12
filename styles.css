@@ -1,19 +1,33 @@
 @charset "utf-8";
-
+/*for desktop/tablet screens*/
+@media only screen and (min-width: 641px){
 html{
+    text-align: center;
     background-color: whitesmoke;
     height: 100%;
 }
 button{
+    text-align: center;
     background-color: darkgreen;
     width: 100%;
+    padding: none;
+
+}
+.nav_items a {
+    float: left;
+   display: inline block;
+    color: white;
+    font-size: 20px;
+    padding:14px 15px;
+    margin: auto;
+    
 }
 h1{
     color: darkgreen;
 }
 h2{
     color: darkgreen;
-    width: 100%;
+ 
     
 }
 h3{
@@ -24,4 +38,15 @@ p1{
 }
 p2{
     color: darkgreen;
+}
+ul li{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+   
+
+}
+
+/*for mobile screens*/
+@media only screen and (max-width: 640px) {
 }
