@@ -5,13 +5,14 @@ html{
     text-align: center;
     background-color: whitesmoke;
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
-button{
-    text-align: center;
-    background-color: darkgreen;
-    width: 100%;
-    padding: none;
+body{
+    margin: 0;
+    padding: 0;
     
+}
 
 }
  a {
@@ -27,6 +28,7 @@ button{
 }
 h1{
     color: darkgreen;
+    margin-top: 100px; 
 }
 h2{
     color: darkgreen;
@@ -38,9 +40,11 @@ h3{
 }
 p1{
     color: darkgreen;
+    padding: 10px;
 }
 p2{
     color: darkgreen;
+    padding: 10px;
 }
 ul {
     list-style-type: none;
@@ -49,14 +53,37 @@ ul {
     display: flex;
     justify-content: center;
     border: 2px black;
-
 }
 li{
     border: 2px black;
     display: block;
 }
 .topnav {
+    
     text-align: center;
+    background-color: darkgreen;
+    width: 100%;
+    padding: none;
+    position: fixed;
+    top: 0;
+}
+.photos{
+    display: flex;
+    justify-content: center;   
+}
+form input{
+    height: 25px;
+    padding: 5px;
+    text-align: left;
+    margin-bottom: 3px;
+    background-color: white;
+    border: 1px solid black;
+}
+form textarea{
+    resize:none;
+    background-color: white;
+    border: 1px solid black;
+    
 }
 
 /*for mobile screens*/
