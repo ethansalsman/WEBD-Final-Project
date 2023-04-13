@@ -46,6 +46,9 @@ p2{
     color: darkgreen;
     padding: 10px;
 }
+p{
+    color: darkgreen;
+}
 ul {
     list-style-type: none;
     padding: 0;
