@@ -81,6 +81,9 @@ form textarea{
 .res{
     border: 2px solid black;
 }
+.goals{
+    font-size: large;
+}
 
 /*for mobile screens*/
 @media only screen and (max-width: 640px) {
