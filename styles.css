@@ -11,9 +11,7 @@ html{
 body{
     margin: 0;
     padding: 0;
-    
 }
-
 }
  a {
     float: left;
@@ -24,20 +22,15 @@ body{
     margin: auto;
     display: block;
     border: 2px black;
-    
 }
 h1{
     color: darkgreen;
     margin-top: 100px; 
 }
 h2{
-    color: darkgreen;
- 
-    
+    color: darkgreen; 
 }
-h3{
-    color: darkgreen;
-}
+
 p1{
     color: darkgreen;
     padding: 10px;
@@ -70,10 +63,7 @@ li{
     position: fixed;
     top: 0;
 }
-.photos{
-    display: flex;
-    justify-content: center;   
-}
+  
 form input{
     height: 25px;
     padding: 5px;
@@ -83,10 +73,13 @@ form input{
     border: 1px solid black;
 }
 form textarea{
-    resize:none;
+    resize: none;
     background-color: white;
     border: 1px solid black;
     
+}
+.res{
+    border: 2px solid black;
 }
 
 /*for mobile screens*/
